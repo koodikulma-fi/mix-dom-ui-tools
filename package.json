@@ -1,0 +1,33 @@
+{
+  "name": "mix-dom-ui-tools",
+  "version": "0.0.1",
+  "description": "Common UI components for MixDOM library",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json",
+    "build": "tsc && rollup -c rollup.config.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/MixDOMUITools.module.js",
+      "require": "./dist/MixDOMUITools.js"
+    },
+    "./package.json": "./package.json",
+    "./fitting/FitBox": {
+      "import": "./fitting/FitBox.module.js",
+      "require": "./fitting/FitBox.js"
+    },
+    "./spreads/Button": {
+      "import": "./spreads/Button.module.js",
+      "require": "./spreads/Button.js"
+    }
+  },
+  "author": "Mikael Saurén",
+  "license": "MIT",
+  "dependencies": {
+    "mix-dom": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
