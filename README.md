@@ -7,3 +7,12 @@
 ## Todo
 
 - Very early state. Not yet bundled. And components not refined. Copied the components from mixdomjs.org source code.
+
+## Notes
+
+Parts:
+- Common tools
+- Mixable components
+- Components
+- Some simple CSS keywords.
+    * Try to use them even for things like the number slider.

@@ -1,7 +1,12 @@
 
+// - Imports - //
+
 import { MixDOM } from "mix-dom";
 import { Align, HAlign, VAlign, Rect, Margin, cleanMargin } from "../fitting/FitBoxAlgoritms";
 import { FitBox } from "../fitting/FitBox";
+
+
+// - Popup container - //
 
 export interface PopupContainerProps {
 	getElement?: () => HTMLElement | null;
